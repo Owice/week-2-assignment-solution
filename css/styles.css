@@ -1,0 +1,104 @@
+/********Base Style********/
+*{
+	box-sizing: border-box;
+	margin-left: 0px;
+	margin-right: 0px;
+	/*font-size: 16px;*/
+}
+
+body{
+	font-family: Verdana, Geneva, sans-serif;
+
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 1.5em;
+}
+
+section{
+	background: grey;
+	border: solid black 1px;
+	width: 90%;
+	/*height: auto;*/
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+
+
+	
+}
+
+
+h3{
+	text-align: center;
+	width: 25%;
+	margin: 0px;
+	border: solid black 1px;
+	position: relative;
+	left: 75%;
+	font-size: 1.25em;
+	}
+
+#item1{
+	background-color: pink;
+}
+
+#item2{
+	background-color: skyblue;
+}
+
+#item3{
+	background-color: darkgreen;
+}
+
+p{
+	text-align: left;
+	color: white;
+	padding: 10px;
+	font-size: 1em;
+}
+
+.row{
+	width: 100%;
+}
+
+/********Desktop Style********/
+@media (min-width: 992px) {
+	.col-lg-4{
+		width: 33.33%;
+		float: left;
+	}
+	
+}
+
+/********Tablet Style********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.col-md-6 .col-md-12{
+		float: left;
+	}
+
+	.col-md-6{
+		width: 50%;
+	}
+
+	.col-md-12{
+		width: 100%;
+	}
+	#section-3{
+		width: 95%;
+	}
+	
+}
+
+/********Mobile Style********/
+@media (max-width: 767px) {
+	.col-sl-12{
+		width: 100%;
+		float: left;
+	}
+	
+}
